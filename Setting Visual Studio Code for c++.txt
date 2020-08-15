@@ -1,0 +1,44 @@
+ 
+
+                                                                   ** Visual Studio code setup for c/c++ **
+
+First we need to install MinGW GCC toolset for c and c++
+
+1]Download from the link in description and install exe setup.
+  after installation finished u will get continue option
+  click on continue u will get package options
+  click and select mark for installation.
+  a) mingw32-base-bin for c
+  b) mingw32-gcc-g++.bin for c++
+
+ => go to installation click on apply changes
+    click on apply 
+    close it
+
+3] now we will add path of MinGW to path env variable
+   a) go the drive where u have installed mingw exe (c drive or E ) where u have installed
+   b) open MinGW folder
+   c) open bin folder
+   d) copy the path of bin folder
+
+4] a) search for env in your windows search bar
+   b) click on path
+   c) click on new
+   d) paste the fin folder path u have copied and click on ok
+
+5] open ur cmd and run gcc --version to check wether it is installed properly or not
+ 
+
+
+=> Now install Visual studio Code from the link in description
+
+
+Extension required for setting c/c++ in vsc.
+1] c/c++ by microsoft
+2] code runner
+
+for reading input from terminal
+1] open file
+2] go to preferences -> settings
+3] click on run code configuration -> check Run In Terminal 
+4] save with ctrl + s
